@@ -1,18 +1,12 @@
 package Carrito;
 
 public class Carrito {
-//1. Implemente usted mismo para un “carrito de compras”: una clase Producto (que pueda 
-//tener hasta 3 items), otra ItemCarrito, otra Carrito y otra Descuento. 
-
-//2. En un programa main, pida ingresar los datos y arme los objetos correspondientes y con el 
-//método de carrito “precio”, retorne el resultado.
-//Por ejemplo:
-//cant  precioUnitario  producto 
-//1             40           jabón en polvo 
-//3             10            esponjas 
-//2             100         chocolates 
-//carrito.precio() == 270 
-//3. Suba el proyecto / ejercicios a Github
+//1. Vamos a seguir trabajando con el ejercicio que iniciamos en la Clase 5. Al programa del 
+//carrito, vamos a implementar la herencia entre las clases creadas, use los ejemplos 
+//vistos en clases. 
+//2. Recordar que los datos se deben pedir por pantalla. 
+//3. Por ejemplo Clase Producto > itemCarrito > Descuento. 
+    
       public static void precioTotal(Producto[] items) {
           double pagarTotal = 0;
         for (int i = 0; i < items.length; i++) {
